@@ -27,4 +27,5 @@ settings = {
 
 }
 # generates plot using plotly on offline
-plotly.offline.plot(settings, auto_open=False, filename="./static/plt.html")
+plotly.offline.plot(settings, auto_open=False, filename="./templates/plt.html")
+print("Complete. Generated plot at templates/plt.html")
